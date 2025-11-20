@@ -1,7 +1,7 @@
 const strings = {
   en: {
-    brand: 'A&N',
-    names: 'Anna & Noah',
+    brand: 'M&M',
+    names: 'Michelle & Michael',
     date: 'February 6, 2026',
     location: 'Berlin, Germany',
     rsvp: 'RSVP',
@@ -15,11 +15,16 @@ const strings = {
     noteOptional: 'Note (optional)',
     loading: 'Loading...','claimedBy': 'Claimed by', available: 'Available', claim: 'Claim', unclaim: 'Unclaim',
     public: 'Public', private: 'Private', message: 'Message', send: 'Send',
-    email: 'Email', attendingYes: 'Attending', attendingNo: 'Not attending', guestCount: 'Guest count', dietary: 'Dietary needs', submit: 'Submit', rsvpSuccess: 'Thank you! Your RSVP is saved.', error: 'Something went wrong.'
+    email: 'Email', attendingYes: 'Attending', attendingNo: 'Not attending', guestCount: 'Guest count', dietary: 'Dietary needs', submit: 'Submit', rsvpSuccess: 'Thank you! Your RSVP is saved.', error: 'Something went wrong.',
+    lockTitle: 'Private Wedding Site',
+    lockSubtitle: 'Please enter the password to continue',
+    password: 'Password',
+    unlock: 'Unlock',
+    invalidPassword: 'Invalid password. Please try again.'
   },
   de: {
-    brand: 'A&N',
-    names: 'Anna & Noah',
+    brand: 'M&M',
+    names: 'Michelle & Michael',
     date: '6. Februar 2026',
     location: 'Berlin, Deutschland',
     rsvp: 'Zusagen',
@@ -33,11 +38,16 @@ const strings = {
     noteOptional: 'Notiz (optional)',
     loading: 'Lädt...','claimedBy': 'Reserviert von', available: 'Verfügbar', claim: 'Reservieren', unclaim: 'Freigeben',
     public: 'Öffentlich', private: 'Privat', message: 'Nachricht', send: 'Senden',
-    email: 'E-Mail', attendingYes: 'Kommt', attendingNo: 'Kommt nicht', guestCount: 'Anzahl Gäste', dietary: 'Besonderes Essen', submit: 'Absenden', rsvpSuccess: 'Danke! Deine Zusage wurde gespeichert.', error: 'Etwas ist schiefgelaufen.'
+    email: 'E-Mail', attendingYes: 'Kommt', attendingNo: 'Kommt nicht', guestCount: 'Anzahl Gäste', dietary: 'Besonderes Essen', submit: 'Absenden', rsvpSuccess: 'Danke! Deine Zusage wurde gespeichert.', error: 'Etwas ist schiefgelaufen.',
+    lockTitle: 'Private Hochzeitsseite',
+    lockSubtitle: 'Bitte das Passwort eingeben, um fortzufahren',
+    password: 'Passwort',
+    unlock: 'Entsperren',
+    invalidPassword: 'Falsches Passwort. Bitte erneut versuchen.'
   },
   ru: {
-    brand: 'A&N',
-    names: 'Анна и Ноа',
+    brand: 'M&M',
+    names: 'Мишель и Майкл',
     date: '6 Февраля 2026',
     location: 'Берлин, Германия',
     rsvp: 'Ответить',
@@ -51,7 +61,12 @@ const strings = {
     noteOptional: 'Заметка (необязательно)',
     loading: 'Загрузка...','claimedBy': 'Забронировано', available: 'Доступно', claim: 'Забронировать', unclaim: 'Освободить',
     public: 'Публично', private: 'Приватно', message: 'Сообщение', send: 'Отправить',
-    email: 'Email', attendingYes: 'Приду', attendingNo: 'Не приду', guestCount: 'Количество гостей', dietary: 'Пищевые предпочтения', submit: 'Отправить', rsvpSuccess: 'Спасибо! Ваш ответ сохранён.', error: 'Ошибка.'
+    email: 'Email', attendingYes: 'Приду', attendingNo: 'Не приду', guestCount: 'Количество гостей', dietary: 'Пищевые предпочтения', submit: 'Отправить', rsvpSuccess: 'Спасибо! Ваш ответ сохранён.', error: 'Ошибка.',
+    lockTitle: 'Закрытый сайт свадьбы',
+    lockSubtitle: 'Введите пароль, чтобы продолжить',
+    password: 'Пароль',
+    unlock: 'Открыть',
+    invalidPassword: 'Неверный пароль. Попробуйте ещё раз.'
   }
 };
 
